@@ -12,26 +12,15 @@
 <body text="White">
 	<!-- 画像提出form -->
 	<div id="forms">
-		<form class="item__contet" id="form" method="POST" action="./thanks.html" netlify>
-			<div class="item__box" id="setQR">
-				<h4 class="item__title">TikTokQRの提出</h4>
-				<label for="file_photo">
-					画像を選択してください
-					<input type="file" accept='image/*' id="file_photo" name="qr_file" onchange="previewImage(this);">
+		<form class="item__contet" id="form"
+			action="https://script.google.com/macros/s/AKfycbxsUOusr9NTVlE92YMq-JhJujl7ADf9rHp9Yr4mpcRxXKMrBhI5uxFMPQuXoLrQ5SFk/exec"
+			method="POST">
+			<div class="item__box" id="TikTokID">
+				<label for="TikTokID">
+					<h4 class="item__title">TikTokID</h4>
 				</label>
-				<p class="preview__image">
-					<img id="preview" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-						style="max-width:200px;">
-				</p>
-				<script>
-					function previewImage(obj) {
-						var fileReader = new FileReader();
-						fileReader.onload = (function () {
-							document.getElementById('preview').src = fileReader.result;
-						});
-						fileReader.readAsDataURL(obj.files[0]);
-					}
-				</script>
+				<span>
+					@</span><input class="item__contet" name="TikTokID" id="TikTokID" type="text" placeholder="aoni3150">
 			</div>
 			<div class="item__box" id="genre">
 				<h4 class="item__title">投稿ジャンル</h4>
@@ -205,10 +194,21 @@
 			</div>
 			<input type="hidden" id="useridfield" name="useridfield" value="test2">
 			<div class="item__box" id="sendbtn">
-				<input type="submit" value="Register" id="Register">
+				<input type="submit" value="Register" id="Register" onclick="click_s()">
+				<script>
+					const form = document.querySelector('#form');
+					function click_s() {
+						form.submit();
+						// window.close();
+						form[0].reset();
+
+						return false;
+					}
+				</script>
 			</div>
 		</form>
 	</div>
+	<script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
 </body>
 
 </html>
