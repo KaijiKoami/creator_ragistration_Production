@@ -220,6 +220,9 @@ select {
  ******************************年齢*****************************
  **************************************************************/
 
+.pref {
+    font-size: 16px;
+}
 #age {
     padding-bottom: 20px;
 }
@@ -237,7 +240,7 @@ select {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px;
     height: 30px;
     width: 80px;
