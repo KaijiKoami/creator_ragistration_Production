@@ -15,7 +15,7 @@ body {
 }
 
 form {
-    margin: 20px;
+    margin: 5px;
 }
 
 h4 {
@@ -45,17 +45,17 @@ select {
     font-size: 16px;
 }
 
-#TikTokID {
+#tiktokid {
     padding-bottom: 20px;
 }
 
-#TikTokID label {
+#tiktokid label {
     display: block;
     font-size: 16px;
     padding-bottom: 5px;
 }
 
-#TikTokID input[type=text] {
+#tiktokid input[type=text] {
     background: #fff;
     border: 1px solid #999999;
     border-radius: 0;
