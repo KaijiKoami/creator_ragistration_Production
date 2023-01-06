@@ -3,7 +3,7 @@ import './style.css';
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    liff.init({ 
+    liff.init({
             liffId: '1657773262-O5ENDkKN'
         })
         .then(() => {
