@@ -56,12 +56,6 @@ select {
     padding-bottom: 20px;
 }
 
-#tiktokid label {
-    display: block;
-    font-size: 16px;
-    padding-bottom: 5px;
-}
-
 #tiktokid input[type=text] {
     background: #fff;
     border: 1px solid #999999;
@@ -69,7 +63,7 @@ select {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-size: 16px;
+    font-size: 30px;
     padding: 10px;
     height: 30px;
     width: 80px;
