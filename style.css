@@ -41,9 +41,8 @@ select {
  ****************************TiktokID**************************
  **************************************************************/
 .pref {
-	margin:30px;
+	line-height:30px;
 	padding: 8px;
-	height: 30px;
 	display: inline;
     font-size: 20px;
 }
