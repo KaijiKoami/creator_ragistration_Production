@@ -41,12 +41,7 @@ select {
  ****************************TiktokID**************************
  **************************************************************/
 
-#tiktokid input[type=text]::before {
-	border: 1px solid #777777;
-	border-radius: 50%;
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+#tiktokid>div::before{
 	content: "@";
 	display: block;
     font-size: 25px;
