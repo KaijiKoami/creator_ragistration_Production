@@ -50,6 +50,12 @@ select {
     padding-bottom: 20px;
 }
 
+#tiktokid label {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
 .item__contet_tiktokid {
     background: #fff;
     border: 1px solid #999999;
@@ -62,7 +68,6 @@ select {
     height: 30px;
     width: 80px;
 }
-
 /**************************************************************
  ***************************QRフォーム***************************
  **************************************************************/
