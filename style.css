@@ -50,7 +50,7 @@ select {
     padding-bottom: 20px;
 }
 
-#tiktokid input[type=text] {
+input[type=text] {
     background: #fff;
     border: 1px solid #999999;
     border-radius: 30px;
