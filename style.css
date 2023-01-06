@@ -41,13 +41,8 @@ select {
  ****************************TiktokID**************************
  **************************************************************/
 
-#tiktokid>div{
-	display: inline;
-}
-
 #tiktokid>div::before{
 	content: "@";
-	display: block;
     font-size: 25px;
 }
 
