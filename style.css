@@ -68,7 +68,7 @@ select {
     -moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	vertical-align: middle;
-	　display: table-cell;
+	display: table-cell;
 	line-height: 30px;
     font-size: 20px;
     height: 30px;
