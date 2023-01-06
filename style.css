@@ -42,6 +42,8 @@ select {
  **************************************************************/
 .pref {
 	line-height:80px;
+	text-align: center;
+	vertical-align: middle;
 	padding: 8px;
 	display: inline;
     font-size: 20px;
