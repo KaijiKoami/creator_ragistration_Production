@@ -57,9 +57,9 @@ select {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px;
-    height: 100px;
+    height: 60px;
     width: 80px;
 }
 
