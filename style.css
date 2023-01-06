@@ -53,7 +53,7 @@ select {
 #tiktokid input[type=text] {
     background: #fff;
     border: 1px solid #999999;
-    border-radius: 0;
+    border-radius: 30px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
