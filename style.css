@@ -46,10 +46,6 @@ select {
     font-size: 20px;
 }
 
-#tiktokid>div{
-	display: table;
-}
-
 #tiktokid {
     padding-bottom: 20px;
 }
@@ -67,13 +63,13 @@ select {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	vertical-align: middle;
-	display: table-cell;
 	line-height: 30px;
-    font-size: 20px;
+	font-size: 20px;
+	padding: 10px;
     height: 30px;
     width: 80px;
 }
+
 /**************************************************************
  ***************************QRフォーム***************************
  **************************************************************/
