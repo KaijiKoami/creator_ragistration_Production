@@ -64,6 +64,7 @@ select {
     -moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	vertical-align: middle;
+	line-height: 30px;
     font-size: 20px;
     height: 30px;
     width: 80px;
