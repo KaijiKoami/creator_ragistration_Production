@@ -65,7 +65,7 @@ select {
 	-webkit-box-sizing: border-box;
 	line-height: 30px;
 	font-size: 20px;
-	padding: 10px;
+	padding-top: 10px;
     height: 30px;
     width: 80px;
 }
