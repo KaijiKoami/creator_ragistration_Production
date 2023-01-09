@@ -19,7 +19,8 @@
 				<label for="tiktokid">
 					<h4 class="item__title">TikTokID</h4>
 				</label>
-				<div><input class="item__contet_tiktokid" name="tiktokid" id="tiktokid" type="text" placeholder="aoni3150" required> </div>
+				<div><input class="item__contet_tiktokid" name="tiktokid" id="tiktokid" type="text"
+						placeholder="aoni3150" required> </div>
 			</div>
 			<div class="item__box" id="genre">
 				<h4 class="item__title">投稿ジャンル</h4>
@@ -196,13 +197,31 @@
 			<div class="item__box" id="sendbtn">
 				<input type="submit" value="Register" id="Register" onclick="click_s()">
 				<script>
+
 					const form = document.querySelector('#form');
 					function click_s() {
+						isCheck();
 						form.submit();
 						window.close();
 						form[0].reset();
 
 						return false;
+					}
+
+					function isCheck() {
+						let arr_checkBoxes = document.getElementsByName("genre");
+						let count = 0;
+						for (let i = 0; i < arr_checkBoxes.length; i++) {
+							if (arr_checkBoxes[i].checked) {
+								count++;
+							}
+						}
+						if (count > 0) {
+							return true;
+						} else {
+							window.alert("ジャンルを1つ以上選択してください。");
+							return false;
+						};
 					}
 				</script>
 			</div>
