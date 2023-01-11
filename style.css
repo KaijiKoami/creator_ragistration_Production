@@ -132,7 +132,8 @@ select {
 }
 
 #genre input[type=checkbox]+label::before {
-    border: 1px solid #999999;
+	border: 1px solid #999999;
+	background-color:white;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -191,7 +192,8 @@ select {
 }
 
 #sex input[type=radio]+label::before {
-    border: 1px solid #777777;
+	border: 1px solid #777777;
+	background-color:white;
     border-radius: 50%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
