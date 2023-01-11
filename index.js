@@ -40,9 +40,11 @@ function initializeApp() {
 function getLineData() {
     liff.getProfile()
     .then(profile => {
-      const userId = profile.userId;
+		const userId = profile.userId;
+		const displayName = profile.displayName;
     //   const displayName = profile.displayName;
 
-      document.getElementById('useridfield').value = userId;
+		document.getElementById('useridfield').value = userId;
+		document.getElementById('displayNamefield').value = displayName;
     })
 }
