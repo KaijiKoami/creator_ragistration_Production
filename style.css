@@ -312,7 +312,7 @@ select {
     -moz-transition: 0.2s ease-in-out;
     -webkit-transition: 0.2s ease-in-out;
     height: 45px;
-    width: 120px;
+    width: 160px;
 }
 
 #sendbtn input[type=submit]:hover {
